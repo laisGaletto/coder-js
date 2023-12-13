@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega - Aula 2</title>
+</head>
+<body>
+    <section class="sumario-exercicio">
+        <h1>Criar um algoritmo JS simples</h1>
+        <ul>
+            <li>Criar script JS que solicite string e number</li>
+            <li>Realizar operações matemáticas ou concatenação, considerando o tipo de dado</li>
+            <li>mostrar resultados no alert ou no console</li>
+        </ul>
+    </section>
+    <script>
+        // para utilizar a concatenação com string achei interessante utilizar o exemplo dado em aula embora ja seja mais manjado
+        let name = prompt("Insira seu nome aqui:")
+        let sobrenome = prompt("Insira seu sobrenome aqui:")
+        let nomeCompleto = alert("Welcome"+ " " + name + " " + sobrenome)
+
+        // para o uso de parse, estarei realizando uma subtracao para calcular o ano de nascimento do usuario
+        let number1 = prompt("Insira sua idade aqui:")
+        let number2 = prompt("Insira o ano atual aqui:")
+        let subtracao = parseInt(number1) - parseInt(number2)
+        alert("O ano que você nasceu foi" + " "+ subtracao)
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <script>
+        // let number = 10
+        // let number2 = 10
+        // if (number === number2){
+        //     console.log("sou verdadeiro")
+        // } else {
+        //     console.log ("sou falso")
+        //}
+
+        //let nome = prompt("Insira seu nome")
+        // if ( nome == ""){
+        //     alert("Insira seu nome no campo")
+        //}else{
+        //     alert("O nome digitado foi " + nome)
+        // }
+
+        // let combustivel = "Diesel"
+        // if(combustivel === "Gasolina"){
+        //     console.log("É gasolina!!")
+        // } else if (combustivel === "GNV"){
+        //     console.log("É GNV!!")
+        // } else if (combustivel === "Diesel"){
+        //     console.log("É Diesel!")
+        // } else {
+        //     console.log("seu carro não vai ligar!!")
+        // }
+
+        // let number1a5 = prompt("Insira um número de 1 a 5")
+        // if(number1a5 === 1){
+        //     alert("Você inseriu o número UM")
+        // } else if (number1a5 === 2){
+        //     alert("Você inseriu o número DOIS")
+        // } else if (number1a5 === 3){
+        //     alert("Você inseriu o número TRES")
+        // } else if(number1a5 === 4){
+        //     alert("Você inseriu o número QUATRO")
+        // } else if (number1a5 === 5){
+        //     alert("Você inseriu o número CINCO")
+        // } else {
+        //     alert("Você não inseriu um número valido!!!")
+        // }
+
+
+        // //string vazia sempre vai ser 0 == sempre vai ser falso
+
+
+        // let produto = 50.5
+        // if(produto =! 0){
+        //     console.log("Produto nÃo é de graça")
+        // }
+
+        // if(produto > 100){
+        //     console.log("O valor do produto é maior que 100 reais")
+        // } else if(produto >=80){
+        //     console.log("O produto é maior ou igual a 80 reais")
+        // } else {
+        //     console.log("O produto é mais barato que 80 reais")
+        // }
+
+        let numbers = prompt("Insira um número entre 1 e 50")
+        if(numbers === 50){
+            console.log("O número é igual a 50")
+        } else if (numbers >= 40){
+            console.log("O número é maior ou igual a 40")
+        }else if (numbers >= 30){
+            console.log("O número é maior ou igual a 30")
+        }else if (numbers >= 20){
+            console.log("O número é maior ou igual a 20")
+        }else if (numbers >= 10){
+            console.log("O número é maior ou igual a 10")
+        } else if (numbers >=1){
+            console.log("O número é maior ou igual a 1")
+        } else {
+            console.log("O número inserido não é válido!")
+        }
+
+
+        //codigo do professor
+        var numero = prompt("Digite um número entre 1 e 50:");
+
+        // Converter o número para inteiro
+        numero = parseInt(numero);
+
+        //&& = ou 
+
+        // Verificar em qual intervalo o número se encaixa
+        if (numero >= 1 && numero <= 10) {
+            alert("Número: " + numero + "\nIntervalo: entre 1 e 10");
+        } else if (numero >= 10 && numero <= 20) {
+            alert("Número: " + numero + "\nIntervalo: entre 10 e 20");
+        } else if (numero >= 20 && numero <= 30) {
+            alert("Número: " + numero + "\nIntervalo: entre 20 e 30");
+        } else if (numero > 30 && numero <= 40) {
+            alert("Número: " + numero + "\nIntervalo: entre 31 e 40");
+        } else if (numero > 40 && numero <= 50) {
+            alert("Número: " + numero + "\nIntervalo: entre 41 e 50");
+        } else {
+            alert("Número fora do intervalo permitido.");
+        }
+
+    </script>
+</body>
+</html>
