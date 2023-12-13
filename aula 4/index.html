@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+</head>
+<body>
+    <script>
+        //function solicitarNome(){
+        //     let nome = prompt("Insira seu primeiro nome:")
+        //     console.log("O nome inserido foi " + nome)
+        // }
+
+        //solicitarNome()
+        //solicitarNome()
+        //solicitarNome()
+        //solicitarNome()
+
+        //exercicio em aula
+
+        console.log("helloo")
+
+        function receberNumero (){
+            let number = prompt("Insira um número")
+            number = parseFloat(number)
+
+            let receberProduto = number % 2
+            if(receberProduto == 0){
+                alert("O número é par, esse foi o número que você escolheu: " + number + "!!!")
+                console.log("O número é par!!!")
+            } else {
+                alert("O número escolhido é impar, que triste, você escolheu o número " + number + "!!!")
+                console.log("O número é impar!!")
+            }
+        }
+
+        receberNumero()
+    </script>
+</body>
+</html>
