@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 2</title>
+</head>
+<body>
+    <script>
+        // function somar(a, b){
+        //     let resultado = a + b
+        //     return(parseFloat.resultado.replace(",", "."))
+        // }
+
+        // function subtrair(a, b){
+        //     let resultado = a - b
+        //     return(parseFloat.resultado.replace(",", "."))
+        // }
+        
+        // function calcularICMS(a){
+        //     let resultado = a * 0.21
+        //     return(parseFloat.resultado.replace(",", "."))
+        // }
+
+
+        // let precoProduto = prompt("Insira o valor do seu produto:")
+        // let convertPreco = parseFloat(precoProduto.replace(",", "."))
+        // let desconto = prompt("Insira o valor do desconto:")
+        // let convertDesconto = parseFloat(desconto.replace(",", "."))
+
+        // let icms = calcularICMS(precoProduto)
+        // // let convertICMS= parseFloat(icms)
+        // // console.log(convertICMS)
+        // let soma = somar(precoProduto, convertICMS)
+        // // convertSoma = parseFloat.soma
+        // // console.log(soma)
+        // let novoPreco = subtrair(soma, desconto)
+        // let convertNovoPreco = parseFloat.novoPreco
+        // alert("O valor que o cliente irá pagar é de " + converNovoPreco)
+        
+
+        function calcularDesconto(produto, desconto){
+            let icms = produto * 0.21
+            let soma = produto + icms
+            let novoValor = soma - desconto
+            return novoValor
+            
+        }
+
+        let imprimirResultado = calcularDesconto(40, 10)
+        console.log(imprimirResultado)
+
+        
+    </script>
+</body>
+</html>
